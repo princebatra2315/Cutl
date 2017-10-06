@@ -1,0 +1,46 @@
+
+<div id="form">
+
+<%= form_for @link, url: {controller: 'shortner', action: 'generate'} do |f| %>
+	<center>
+		<%= image_tag("cutl.png", :alt => "rss feed",:width=>'500px') %><br/><br></	br>
+			
+		<%= f.text_field :url ,:id => "inputurl",:placeholder=>"Enter Your Url Here" %>
+		<%= f.submit :submit,:id => "button",:value=>"Generate" %>	
+	
+		
+		<br/>
+	
+		<div id="customurlbg">
+			<%= f.label :value,:value=>"customurl",:id=>'customurltext'%>
+		</div>
+		
+		<%= f.text_field :value ,:id => "customurl",:placeholder=>"(Optional)" %>&nbsp;
+	
+
+	<% if flash[:success] %>
+		<div id="success"> 
+		<%= flash[:success] %>
+		</div>
+	<%else%>
+		<% if flash[:notice] %>
+			<div id="flash"> 
+			<%= flash[:notice] %>
+			</div>
+		<%else%>
+			<div id="flash2">
+			</div> 
+		<%end%>
+	<% end %>
+
+	</center>
+	
+	<!-- <%= %> -->
+<% end %>
+</div>
+	
+<div id="footer">
+	<div class="footertip">
+	</div>
+	<center><p class="rights">© 2017 CutL.in&nbsp;&nbsp;&nbsp;All Rights Reserved.</p></center>
+</div>

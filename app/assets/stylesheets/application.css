@@ -1,0 +1,73 @@
+#form{
+	margin: 20vh auto 0	;
+	width:500px;
+}
+
+#inputurl{
+	width: 400px;
+	height: 28px;
+	border: 2px solid orange;
+	border-radius: 10px;
+}
+#customurl{
+	width: 400px;
+	height: 26px;
+	border: 2px solid orange;
+	margin-top: 3px;
+	margin-left: -5px;
+}
+#customurltext{
+	color:white;
+}
+#customurlbg{
+	border-radius: 6px 0 0 0;
+	padding-top: 6px;
+	width:76px;
+	height: 26px;
+	display: inline-block;
+	background: orange;
+}
+.rights{
+	margin-top: 40px;	
+	color:white;
+}
+
+#button{
+	width:100;
+	height: 35px;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:20px;
+	background:orange;
+	border:1px;
+	color:white;
+	display:inline-block;
+}
+
+#footer{
+	margin-top: 115px;
+	height:122px;
+	background: grey;
+}
+.footertip{
+	height:10px;
+	background: orange;
+}
+#flash{
+	color:green;
+	margin-top: 37px;
+	height: 30px;
+	font-size:30px;
+	border: 2px dashed green;
+}
+#success{
+	color:red;
+	margin-top: 37px;
+	height: 30px;
+	font-size:30px;
+	border: 2px dashed red;
+}
+#flash2{
+	margin-top: 50px;
+	height: 21px;
+}
