@@ -1,28 +1,7 @@
-== README
+# README
+It is a URL shortner which is easy to use and user friendly.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It is prepared on Ruby On Rails Framework.
 
-Things you may want to cover:
+Make your links manageable and sharable on social media with Billions of available custom URLs and faster redirection.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
