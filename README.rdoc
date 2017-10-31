@@ -2,7 +2,7 @@
 
 It is a URL shortner which is easy to use and user friendly.
 
-It is prepared on Ruby On Rails Framework.
+It is prepared on Ruby On Rails-Framework.
 
 Make your links manageable and sharable on social media with Billions of available custom URLs and faster redirection.
 
